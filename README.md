@@ -113,7 +113,7 @@ Browsing to /dashboard renders empty page
 
 **Dev Notes**
 
-Headline value is calculated as:  P (1 + r/n)^(nt), where P is the initial principal balance, r is the interest rate, n is the number of times interest is compounded per time period and t is the number of time periods. e.g.
+Projected value is calculated as:  P (1 + r/n)^(nt), where P is the initial principal balance, r is the interest rate, n is the number of times interest is compounded per time period and t is the number of time periods. It is assumed interest compounds on a monthly basis, i.e. 12 times a year. e.g.
 P = 5000.
 r = 5/100 = 0.05 (decimal).
 n = 12.
