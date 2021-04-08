@@ -96,7 +96,7 @@ Browsing to /dashboard renders empty page
 ### Investor Should be able to see Amount of Expected Return
 
 **As an** Investor
-**I want** to headline stats about my account
+**I want** to see headline stats about my account
 **So that** I can review my investment at a glance
 
 **Acceptance Criteria**
