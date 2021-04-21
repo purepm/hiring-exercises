@@ -8,18 +8,6 @@ In order to move forward, we'd like to know a little about how you work. To that
 
 We follow a lightweight agile development process at Pure, and so have presented a small set of user stories to work through. There is no grading or scoring, nor is it pass-fail, rather these are meant to serve a sample of your reductive thought processes as an engineer.
 
-## A few words on asynchronous/take-home exercises
-
-We know that the technical hiring processes in our industry are still evolving. Acknowledging that there are mixed opinions on take-home exercises in general, we have chosen this route to give you the most flexibility and to respect the time investment that you're making in seeking this role.
-
-*  We're a fully-remote team, currently all based within continental US, but spread across multiple time zones. Async exercises allow you to show off your skills at a time/place that works for you.
-
-*  Take-home exercises allow you to work at your own pace. We intentionally structure these to take around 1h 30m in time and ask that you limit your investment to no more than the suggested time, however you are free to break this into as many sessions as you wish.
-
-* It matches the nature of our work. Most of being an engineer on a remote team is self-directed exploration of a problem, followed by period(s) of cyclic work/edit/review, followed by submittal for review and approval by your peers. Async exercises allow you to do the same.
-
-* It eliminates the performance anxiety of forced-pairing with someone whom you've just met.
-
 ## General Instructions
 
 1. We would like you to work through the User Stories below, adding the relevant functionality to the application.
