@@ -6,7 +6,7 @@ If you are reading this then you're probably talking to us about a technical rol
 
 In order to move forward, we'd like to know a little about how you work. To that end, this repository contains a **short, time-boxed** (approximately 2 hours) that you can use demonstrate your skills and abilities.
 
-We follow a lightweight agile development process at Pure, and so have presented a small set of user stories to work through. As a pair-programmed exercise, we will work with you as we extend, refactor and build upon the existing app, adding tests or assertions to cover our new behavior where reasonable to do so.
+We follow a lightweight agile development process at Pure, and so have presented a small set of user stories to work through. As a pair-programming exercise, we will work with you as we extend, refactor and build upon the existing app, adding tests or assertions to cover our new behavior where reasonable to do so.
 
 ## General Instructions
 
@@ -18,7 +18,7 @@ We follow a lightweight agile development process at Pure, and so have presented
 
 ## Tech setup
 
-As a pair-programmed exercise, your pair will have this all prepared in advance on their machine, ready for your session!
+As a pair-programming exercise, your pair will have this all prepared in advance on their machine, ready for your session!
 
 If you wish to familiarize yourself with the project in advance, read on!
 
