@@ -14,7 +14,7 @@ We follow a lightweight agile development process at Pure, and so have presented
 
 2. We are particularly interested in your approach to **testing**, and how you **factor** your code for **readability and extensibility** by others.
 
-3. We will work together to complete as much of the exercise as feasible. While progress is important, we're more interested in your though process and how you work with others; so don't worry if you don't complete all of the stories.
+3. We will work together to complete as much of the exercise as feasible. While progress is important, we're more interested in your thought process and how you work with others; so don't worry if you don't complete all of the stories.
 
 ## Tech setup
 
