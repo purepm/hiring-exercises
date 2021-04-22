@@ -6,21 +6,21 @@ If you are reading this then you're probably talking to us about a technical rol
 
 In order to move forward, we'd like to know a little about how you work. To that end, this repository contains a **short, time-boxed** (approximately 2 hours) that you can use demonstrate your skills and abilities.
 
-We follow a lightweight agile development process at Pure, and so have presented a small set of user stories to work through. There is no grading or scoring, nor is it pass-fail, rather these are meant to serve a sample of your reductive thought processes as an engineer.
+We follow a lightweight agile development process at Pure, and so have presented a small set of user stories to work through. As a pair-programmed exercise, we will work with you as we extend, refactor and build upon the existing app, adding tests or assertions to cover our new behavior where reasonable to do so.
 
 ## General Instructions
 
-1. We would like you to work through the User Stories below, adding the relevant functionality to the application.
+1. We will work through the User Stories below, adding the relevant functionality to the application.
 
-2. **Create a fork** of the repository **in your own GitHub account**, and **add @PureEngHiring** as a private collaborator.
+2. We are particularly interested in your approach to **testing**, and how you **factor** your code for **readability and extensibility** by others.
 
-3. When you are comfortable with your changes notify us through GitHub or, email us at careers@purepm.co and we'll review it withn 48 hours and respond back to you with objective feedback.
-
-4. We are particularly interested in your approach to **testing**, and how you **factor** your code for **readability and extensibility** by others.
-
-5. Complete as much of the exercise as you can in 2 hours or less. Don't worry if you don't complete all of the stories.
+3. We will work together to complete as much of the exercise as feasible. While progress is important, we're more interested in your though process and how you work with others; so don't worry if you don't complete all of the stories.
 
 ## Tech setup
+
+As a pair-programmed exercise, your pair will have this all prepared in advance on their machine, ready for your session!
+
+If you wish to familiarize yourself with the project in advance, read on!
 
 The back-end service uses dockerized services, to save having to install each component on your machine locally. There's a good [Getting Started](https://www.docker.com/get-started) tutorial if you're not familiar with docker yet.
 
