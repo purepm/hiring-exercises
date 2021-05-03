@@ -107,7 +107,7 @@ r = 5/100 = 0.05 (decimal).
 n = 12.
 t = 10.
 
-A = 5000 (1 + 0.05 / 12) (12 * 10) = 8235.05.
+5000 (1 + 0.05 / 12) (12 * 10) = 8235.05.
 
 ---
 ### Investor Should be able to see Amount of Deposit/Withdrawal
