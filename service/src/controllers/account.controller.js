@@ -1,7 +1,12 @@
 const catchAsync = require('../utils/catchAsync');
 
 const getAccount = catchAsync(async (req, res) => {
-  res.send('account');
+  // id from route param
+  // console.log(req.params.id);
+
+  // user from JWT token
+  // console.log(req.user);
+  res.send('user account');
 });
 const getAccountTransactions = catchAsync(async (req, res) => {
   res.send('accountTransactions');

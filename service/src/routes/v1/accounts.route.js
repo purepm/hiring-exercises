@@ -5,6 +5,7 @@ const accountController = require('../../controllers/account.controller');
 const router = express.Router();
 
 router.route('/').get(auth('getAccounts'), accountController.getAccounts);
+router.route('/:id').get(auth('getAccount'), accountController.getAccount);
 
 module.exports = router;
 

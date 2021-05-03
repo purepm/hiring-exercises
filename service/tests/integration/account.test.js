@@ -8,10 +8,10 @@ const { userOne, insertUsers } = require('../fixtures/user.fixture');
 setupTestDB();
 
 describe('Account routes', () => {
-  describe('GET /v1/accounts', () => {
+  describe('GET /v1/accounts/1', () => {
     test('should return 200 OK', async () => {
       await insertUsers([userOne]);
-      const result = await request(app).get('/v1/accounts').set('Authorization', `Bearer ${userOneAccessToken}`);
+      const result = await request(app).get('/v1/accounts/1').set('Authorization', `Bearer ${userOneAccessToken}`);
       expect(result.status).toEqual(httpStatus.OK);
     });
   });
