@@ -63,8 +63,22 @@
 <script>
 import InvestmentTable from "../components/dashboard/InvestmentTable.vue"
 import HeadlineStats from "../components/dashboard/HeadlineStats.vue"
+import { mapGetters } from "vuex"
+
 export default {
   name: "Dashboard",
   components: { InvestmentTable, HeadlineStats },
+  computed: {
+    ...mapGetters("auth", ["userId"]),
+    ...mapGetters("account", ["account"]),
+  },
+  methods: {
+    getHeadlineStats: async function () {
+      this.$store.dispatch("account/account", { id: this.userId })
+    },
+  },
+  created() {
+    this.getHeadlineStats()
+  },
 }
 </script>

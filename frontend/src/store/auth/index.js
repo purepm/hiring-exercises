@@ -9,6 +9,7 @@ export const module = {
   getters: {
     signedIn: (state) => state.user && Boolean(window.localStorage.getItem("token")),
     user: (state) => state.user,
+    userId: (state) => state.user?.user?.id,
   },
   actions,
   mutations,
