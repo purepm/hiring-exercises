@@ -7,7 +7,7 @@ export default {
         const token = window.localStorage.getItem("token")
         if (!token) throw new Error("No auth token found")
 
-        const response = await axios.get(`${import.meta.env.VITE_API_URI}/v1/accounts/${payload.id}`, {
+        const response = await axios.get(`${import.meta.env.VITE_API_URI}/v1/users/${payload.id}/account`, {
           headers: { Authorization: `Bearer ${token}` },
         })
         commit("setAccount", response.data)

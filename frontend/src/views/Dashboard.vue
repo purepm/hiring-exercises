@@ -51,7 +51,7 @@
       <main>
         <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
           <div class="mt-6 px-4 py-6 sm:px-0">
-            <headline-stats />
+            <headline-stats :account="account" />
             <investment-table class="mt-6" />
           </div>
         </div>
@@ -70,11 +70,11 @@ export default {
   components: { InvestmentTable, HeadlineStats },
   computed: {
     ...mapGetters("auth", ["userId"]),
-    ...mapGetters("account", ["account"]),
+    ...mapGetters("user", ["account"]),
   },
   methods: {
     getHeadlineStats: async function () {
-      this.$store.dispatch("account/account", { id: this.userId })
+      this.$store.dispatch("user/account", { id: this.userId })
     },
   },
   created() {

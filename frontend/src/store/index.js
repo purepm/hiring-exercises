@@ -1,6 +1,6 @@
 import { createStore } from "vuex"
 import auth from "./auth"
-import account from "./account"
+import user from "./user"
 
 export const store = createStore({
   state: {},
@@ -19,7 +19,7 @@ export const store = createStore({
   actions: {},
   modules: {
     auth,
-    account,
+    user,
   },
 })
 store.subscribe((_, state) => {

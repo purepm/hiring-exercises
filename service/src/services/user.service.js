@@ -39,6 +39,21 @@ const getUserById = async (id) => {
 };
 
 /**
+ * Get users account by user id
+ * @param {ObjectId} id
+ * @returns {Promise<Account>}
+ */
+const getUserAccount = async (id) => {
+  const user = User.findById(id);
+  if (user) {
+    // TODO: Fix this - send user account details to frontend properly
+    return { id: 123, initial: 0, date: 0, projected: 0 };
+  } else {
+    return null;
+  }
+};
+
+/**
  * Get user by email
  * @param {string} email
  * @returns {Promise<User>}
@@ -84,6 +99,7 @@ module.exports = {
   createUser,
   queryUsers,
   getUserById,
+  getUserAccount,
   getUserByEmail,
   updateUserById,
   deleteUserById,
